@@ -6,8 +6,13 @@ import Container from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import ModeToggle from "./mode-toggle";
 
 const routes = [
+  {
+    href: "/",
+    label: "Home",
+  },
   {
     href: "/recruit",
     label: "Recruit AI",
@@ -30,7 +35,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sm:flex sm:justify-between py-3 px-4 border-b">
+    <header className="sm:flex sm:justify-between border-b fixed top-0 left-0 right-0 z-50 bg-background">
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between w-full">
           <div className="flex items-center">
@@ -78,6 +83,7 @@ export default function Navbar() {
                 </nav>
               </SheetContent>
             </Sheet>
+            <ModeToggle />
           </div>
         </div>
       </Container>
