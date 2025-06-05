@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc74fab5-bc36-47ab-81df-46ae4f02acaa" name="Changes" comment="Remove theme toggle component and package-lock file">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/randisoft.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cookies/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout.metadata.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/meta-data.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/portfolio/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/privacy/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/solutions/analytics/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/solutions/automation/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/solutions/cloud/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/solutions/development/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/solutions/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/terms/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/about.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/case-studies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/flagships.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/innovation-hub.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/portfolio-highlights.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/products.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/services.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/team.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/why-choose-us.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/breadcrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/client-layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/solutions/solution-layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/particles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/animations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/cta.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/cta.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/feature..tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/feature..tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/mode-toggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/providers/theme-provider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theme-toggler.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2srQb9A1GsG5xS4fSbIKRS6wIr2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/guyrandalf/Software/randisoft",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/guyrandalf/Software/randisoft/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc74fab5-bc36-47ab-81df-46ae4f02acaa" name="Changes" comment="" />
+      <created>1739211283746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739211283746</updated>
+      <workItem from="1739211285299" duration="804000" />
+      <workItem from="1749120970751" duration="731000" />
+      <workItem from="1749121713297" duration="9630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove theme toggle component and package-lock file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove theme toggle component and package-lock file" />
+  </component>
+</project>

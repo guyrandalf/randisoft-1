@@ -1,124 +1,197 @@
-"use client";
+"use client"
 
-import Container from "@/components/layout/container";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import Container from "@/components/layout/container"
+import { Button } from "@/components/ui/button"
+import { motion } from "framer-motion"
+import Link from "next/link"
 import {
-  RiRobot2Line,
+  RiCodeLine,
+  RiStackLine,
   RiTeamLine,
-  RiFlowChart,
-  RiSpeedLine,
-} from "react-icons/ri";
+  RiRocketLine,
+} from "react-icons/ri"
 
-const products = [
+const companyStats = [
   {
-    title: "Randisoft Recruit",
-    description:
-      "AI-powered recruitment platform connecting talent with opportunities. Perfect for both recruiters and job seekers.",
+    value: "5+",
+    label: "Years Combined Experience",
+    icon: RiCodeLine,
+  },
+  {
+    value: "20+",
+    label: "Successful Projects",
+    icon: RiStackLine,
+  },
+  {
+    value: "10+",
+    label: "Tech Stack Proficiency",
     icon: RiTeamLine,
-    status: "Available",
-    link: "/recruit",
-    features: [
-      "AI Resume Screening",
-      "Smart Job Matching",
-      "Automated Shortlisting",
-      "Direct Communication",
-    ],
   },
   {
-    title: "Randisoft Automate",
-    description:
-      "Business process automation platform. Streamline operations and enhance productivity.",
-    icon: RiRobot2Line,
-    status: "Coming Soon",
-    link: "/automate",
-    features: [
-      "Workflow Automation",
-      "Document Processing",
-      "Task Management",
-      "Process Analytics",
-    ],
+    value: "100%",
+    label: "Client Satisfaction",
+    icon: RiRocketLine,
   },
-];
+]
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-background">
+    <div className="relative overflow-hidden bg-background min-h-screen flex items-center">
       <Container>
-        <div className="flex flex-col items-center justify-center max-w-6xl mx-auto pt-24 pb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-16"
-          >
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground mb-6">
-              Transform Your Business with{" "}
-              <span className="text-primary">AI-Powered Solutions</span>
-            </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Experience the future of business operations with our AI-driven
-              platforms. From intelligent recruitment to seamless automation,
-              we're revolutionizing how businesses work.
-            </p>
-          </motion.div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col items-start text-left">
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-gradient"
+            >
+              Building Software Products That Matter
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="mt-6 text-xl text-muted-foreground max-w-2xl"
+            >
+              Randisoft creates innovative software solutions for Nigerian businesses and individuals
+            </motion.p>
 
-          <div className="grid md:grid-cols-2 gap-8 w-full">
-            {products.map((product, index) => (
-              <motion.div
-                key={product.title}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-                className="relative p-8 bg-card rounded-xl border shadow-sm hover:shadow-md transition-shadow"
-              >
-                <div className="flex items-center justify-between mb-6">
-                  <div className="flex items-center space-x-4">
-                    <product.icon className="h-8 w-8 text-primary" />
-                    <h2 className="text-2xl font-semibold">{product.title}</h2>
-                  </div>
-                  <Badge
-                    variant={
-                      product.status === "Available" ? "default" : "secondary"
-                    }
-                  >
-                    {product.status}
-                  </Badge>
-                </div>
-
-                <p className="text-muted-foreground mb-6">
-                  {product.description}
-                </p>
-
-                <ul className="space-y-3 mb-8">
-                  {product.features.map((feature) => (
-                    <li key={feature} className="flex items-center text-sm">
-                      <span className="mr-2">✓</span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-
-                <Button
-                  className="w-full"
-                  variant={
-                    product.status === "Available" ? "default" : "secondary"
-                  }
-                  disabled={product.status !== "Available"}
-                >
-                  <Link href={product.link}>
-                    {product.status === "Available"
-                      ? "Get Started"
-                      : "Coming Soon"}
-                  </Link>
-                </Button>
-              </motion.div>
-            ))}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="mt-8 flex flex-wrap gap-4"
+            >
+              <Button asChild size="lg" className="rounded-full">
+                <Link href="/products">Explore Our Products</Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="rounded-full">
+                <Link href="/products#beta">Join Our Beta</Link>
+              </Button>
+            </motion.div>
           </div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7, delay: 0.3 }}
+            className="relative hidden lg:block"
+          >
+            <div className="relative w-full h-[500px] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 p-1">
+              <div className="absolute inset-0 bg-grid-subtle opacity-30" />
+              <div className="relative w-full h-full rounded-xl overflow-hidden flex items-center justify-center">
+                {/* Replace with actual illustration or keep abstract animation */}
+                <div className="relative w-4/5 h-4/5">
+                  <motion.div
+                    animate={{
+                      rotate: [0, 5, 0, -5, 0],
+                      y: [0, -10, 0, 10, 0]
+                    }}
+                    transition={{
+                      duration: 10,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                    className="absolute top-1/4 left-1/4 w-32 h-32 bg-primary/30 rounded-2xl blur-md"
+                  />
+                  <motion.div
+                    animate={{
+                      rotate: [0, -5, 0, 5, 0],
+                      y: [0, 10, 0, -10, 0]
+                    }}
+                    transition={{
+                      duration: 8,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                      delay: 1
+                    }}
+                    className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-secondary/30 rounded-full blur-md"
+                  />
+                  <motion.div
+                    animate={{
+                      rotate: [0, 10, 0, -10, 0],
+                      scale: [1, 1.1, 1, 0.9, 1]
+                    }}
+                    transition={{
+                      duration: 12,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                      delay: 2
+                    }}
+                    className="absolute top-1/3 right-1/3 w-24 h-24 bg-accent/30 rounded-lg blur-sm"
+                  />
+
+                  {/* Code/Window mockup */}
+                  <motion.div
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.8, duration: 0.8 }}
+                    className="absolute inset-0 flex items-center justify-center"
+                  >
+                    <div className="w-full max-w-md bg-background/90 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden border border-muted">
+                      <div className="flex items-center px-4 py-2 bg-muted/50 border-b border-muted">
+                        <div className="flex space-x-2">
+                          <div className="w-3 h-3 rounded-full bg-destructive/70" />
+                          <div className="w-3 h-3 rounded-full bg-yellow-500/70" />
+                          <div className="w-3 h-3 rounded-full bg-green-500/70" />
+                        </div>
+                        <div className="mx-auto text-xs font-medium text-muted-foreground">
+                          app.randisoft.com
+                        </div>
+                      </div>
+                      <div className="p-4 text-xs font-mono">
+                        <div className="text-primary">const <span className="text-accent">randisoft</span> = {`{`}</div>
+                        <div className="pl-4">products: <span className="text-secondary">['SkillsMarketplace', 'InfoPlatform', 'HealthcareSolutions']</span>,</div>
+                        <div className="pl-4">focus: <span className="text-secondary">'innovation'</span>,</div>
+                        <div className="pl-4">location: <span className="text-secondary">'Nigeria'</span>,</div>
+                        <div className="pl-4">mission: <span className="text-secondary">'Building software that matters'</span></div>
+                        <div>{`}`};</div>
+                      </div>
+                    </div>
+                  </motion.div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </Container>
+
+      <div className="absolute inset-0 -z-10 overflow-hidden">
+        <div className="absolute inset-0 bg-grid opacity-10" />
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: [0, 0.2, 0] }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+          className="absolute -top-1/2 right-0 w-[500px] h-[500px] bg-primary/20 rounded-full blur-3xl"
+        />
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: [0, 0.2, 0] }}
+          transition={{
+            duration: 8,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 1,
+          }}
+          className="absolute -bottom-1/2 left-0 w-[500px] h-[500px] bg-secondary/20 rounded-full blur-3xl"
+        />
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: [0, 0.15, 0] }}
+          transition={{
+            duration: 10,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 2,
+          }}
+          className="absolute top-1/3 left-1/4 w-[300px] h-[300px] bg-accent/20 rounded-full blur-3xl"
+        />
+      </div>
     </div>
-  );
+  )
 }
