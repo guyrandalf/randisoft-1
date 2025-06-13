@@ -37,9 +37,9 @@ const solutions = [
     color: "from-cyan-500 to-blue-500",
   },
   {
-    title: "Custom Development",
+    title: "Talent Outsourcing",
     description:
-      "Build powerful enterprise applications tailored to your needs",
+      "Access top industry talent to scale your business efficiently",
     icon: RiCodeLine,
     href: "/solutions/development",
     color: "from-green-500 to-cyan-500",

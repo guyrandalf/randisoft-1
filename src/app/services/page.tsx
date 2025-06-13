@@ -16,43 +16,28 @@ import {
 
 const services = [
   {
-    id: "web",
-    title: "Web Applications",
-    description: "Custom web applications built with modern frameworks to solve specific business challenges.",
-    icon: RiComputerLine,
+    id: "staffing",
+    title: "Staffing Agency Services",
+    description: "We recruit, train, and deploy skilled professionals (not limited to tech) to work with companies and organizations.",
+    icon: RiTeamLine,
     features: [
-      "Responsive design for all devices",
-      "Progressive Web Apps (PWAs)",
-      "Admin dashboards and portals",
-      "Content management systems",
+      "Talent recruitment and vetting",
+      "Professional training and development",
+      "Skilled workforce deployment",
+      "Ongoing performance management",
     ],
-    technologies: ["React", "Next.js", "Node.js", "Express"],
   },
   {
-    id: "mobile",
-    title: "Mobile Applications",
-    description: "Cross-platform mobile solutions that work seamlessly on iOS and Android devices.",
+    id: "outsourcing",
+    title: "Outsourcing Services",
+    description: "We take on entire business functions or roles (across industries, not just tech) and deliver results via our vetted workforce and internal tools.",
     icon: RiSmartphoneLine,
     features: [
-      "Native-like performance",
-      "Offline functionality",
-      "Push notifications",
-      "App store deployment",
+      "End-to-end business function management",
+      "Cross-industry expertise",
+      "Results-driven approach",
+      "Scalable workforce solutions",
     ],
-    technologies: ["React Native", "Expo", "Firebase"],
-  },
-  {
-    id: "custom",
-    title: "Custom Development",
-    description: "Bespoke software solutions tailored to your unique business requirements.",
-    icon: RiCodeBoxLine,
-    features: [
-      "Requirements analysis",
-      "System architecture design",
-      "Full-stack development",
-      "Quality assurance and testing",
-    ],
-    technologies: ["Various frameworks", "Cloud platforms", "DevOps tools"],
   },
 ]
 
@@ -74,10 +59,10 @@ export default function ServicesPage() {
                 <RiLightbulbLine className="w-6 h-6" />
               </div>
               <div>
-                <h2 className="text-2xl font-semibold mb-2">Supporting Our Product Development</h2>
+                <h2 className="text-2xl font-semibold mb-2">Supporting Your Business Growth</h2>
                 <p className="text-muted-foreground mb-4">
-                  While our primary focus is building our flagship products, we offer limited development services to select clients.
-                  This helps us fund our product development journey while delivering exceptional value to businesses.
+                  We connect you with top industry talent through our comprehensive outsourcing services.
+                  Our network of professionals helps your business scale efficiently while focusing on your core objectives.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Button asChild size="sm">
@@ -91,10 +76,10 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          <h1 className="text-4xl font-bold mb-6">Development Services</h1>
+          <h1 className="text-4xl font-bold mb-6">Support Services</h1>
 
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl">
-            We offer a select range of development services with limited availability. Our team brings the same expertise and quality to client projects that we apply to our own products.
+            While Randisoft is primarily a product-based company, we offer these support services to generate revenue and extend our reach. These services help businesses scale efficiently while focusing on their core objectives.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
@@ -126,17 +111,6 @@ export default function ServicesPage() {
                   ))}
                 </ul>
 
-                <h3 className="font-medium mb-3">Technologies:</h3>
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {service.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="inline-block px-3 py-1 text-xs rounded-full bg-secondary/10 text-secondary"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
               </motion.div>
             ))}
           </div>
@@ -144,12 +118,12 @@ export default function ServicesPage() {
           <div className="mt-16 pt-12 border-t">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-2xl font-semibold mb-4">Our Approach to Client Work</h2>
+                <h2 className="text-2xl font-semibold mb-4">Our Support Services Approach</h2>
                 <p className="text-muted-foreground mb-6">
-                  We take on a limited number of client projects to ensure we can deliver exceptional quality while maintaining focus on our product development. Our approach is collaborative, transparent, and focused on delivering real business value.
+                  While our primary focus is on building innovative products, our support services help us generate revenue and extend our reach. We provide high-quality staffing and outsourcing solutions that deliver exceptional value to businesses.
                 </p>
                 <Button asChild>
-                  <Link href="/contact">Discuss Your Project</Link>
+                  <Link href="/contact">Discuss Your Needs</Link>
                 </Button>
               </div>
               <div className="bg-card p-6 rounded-xl shadow-md">
@@ -157,20 +131,20 @@ export default function ServicesPage() {
                   <div className="p-2 rounded-lg bg-primary/10">
                     <RiTimeLine className="w-5 h-5 text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold">Limited Availability</h3>
+                  <h3 className="text-lg font-semibold">Cross-Industry Expertise</h3>
                 </div>
                 <p className="text-muted-foreground mb-6">
-                  Due to our focus on product development, we only take on a select number of client projects each quarter. This ensures we can deliver the highest quality work without compromising our product roadmap.
+                  Our network includes professionals from various industries, not limited to tech. We carefully match talent with your specific requirements to ensure the perfect fit for your business needs.
                 </p>
 
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 rounded-lg bg-primary/10">
                     <RiTeamLine className="w-5 h-5 text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold">Product-First Team</h3>
+                  <h3 className="text-lg font-semibold">Results-Driven Solutions</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  Our team brings product thinking to every client project. We approach your challenges with the same mindset we use for our own products: focusing on user needs, business value, and long-term sustainability.
+                  Whether you need skilled professionals or complete business function management, our support services are designed to deliver measurable results while allowing you to focus on your core business objectives.
                 </p>
               </div>
             </div>

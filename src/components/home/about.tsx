@@ -3,25 +3,25 @@
 import Container from "@/components/layout/container"
 import { motion } from "framer-motion"
 import {
-  SiReact,
-  SiTypescript,
-  SiPython,
-  SiDocker,
-  SiNextdotjs,
-  SiExpress,
-  SiNodedotjs,
-  SiPostgresql,
-} from "react-icons/si"
+  RiBuilding2Line,
+  RiHeartPulseLine,
+  RiGraduationCapLine,
+  RiShoppingCart2Line,
+  RiMegaphoneLine,
+  RiTruckLine,
+  RiPlantLine,
+  RiGovernmentLine,
+} from "react-icons/ri"
 
-const techStack = [
-  { icon: SiReact, name: "React" },
-  { icon: SiTypescript, name: "TypeScript" },
-  { icon: SiPython, name: "Python" },
-  { icon: SiNodedotjs, name: "Node.js" },
-  { icon: SiDocker, name: "Docker" },
-  { icon: SiNextdotjs, name: "Next.js" },
-  { icon: SiExpress, name: "Express" },
-  { icon: SiPostgresql, name: "PostgreSQL" },
+const industryExpertise = [
+  { icon: RiBuilding2Line, name: "Business" },
+  { icon: RiHeartPulseLine, name: "Healthcare" },
+  { icon: RiGraduationCapLine, name: "Education" },
+  { icon: RiShoppingCart2Line, name: "E-commerce" },
+  { icon: RiMegaphoneLine, name: "Marketing" },
+  { icon: RiTruckLine, name: "Logistics" },
+  { icon: RiPlantLine, name: "Agriculture" },
+  { icon: RiGovernmentLine, name: "Government" },
 ]
 
 export default function About() {
@@ -86,9 +86,9 @@ export default function About() {
             className="space-y-8"
           >
             <div className="p-8 rounded-xl shadow-md bg-card">
-              <h3 className="text-xl font-semibold mb-6">Our Tech Stack</h3>
+              <h3 className="text-xl font-semibold mb-6">Industry Expertise</h3>
               <div className="grid grid-cols-4 gap-6">
-                {techStack.map((tech, index) => (
+                {industryExpertise.map((tech, index) => (
                   <motion.div
                     key={tech.name}
                     initial={{ opacity: 0, scale: 0.5 }}

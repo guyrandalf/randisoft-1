@@ -12,54 +12,54 @@ import {
 
 const features = [
   {
-    title: "Custom Software Development",
+    title: "Skilled Professionals",
     description:
-      "Tailor-made software solutions designed for your specific business needs",
+      "Access to vetted professionals across various industry positions",
     icon: RiCodeLine,
   },
   {
-    title: "Enterprise Applications",
-    description: "Scalable enterprise applications with modern architecture",
+    title: "Project-Based Outsourcing",
+    description: "Complete project delivery by specialized teams",
     icon: RiAppsLine,
   },
   {
-    title: "Database Solutions",
-    description: "Custom database design and optimization services",
+    title: "Staff Augmentation",
+    description: "Seamlessly integrate talent with your existing teams",
     icon: RiDatabase2Line,
   },
   {
     title: "Dedicated Teams",
-    description: "Expert development teams aligned with your business goals",
+    description: "Full teams of specialists aligned with your business goals",
     icon: RiTeamLine,
   },
   {
-    title: "Quality Assurance",
-    description: "Comprehensive testing and quality assurance processes",
+    title: "Quality Management",
+    description: "Comprehensive quality control and performance monitoring",
     icon: RiTestTubeLine,
   },
   {
-    title: "Security First",
-    description: "Built-in security with regular security assessments",
+    title: "Flexible Engagement",
+    description: "Adaptable models to suit your specific business needs",
     icon: RiShieldUserLine,
   },
 ]
 
 const benefits = [
-  "Solutions tailored to your exact business requirements",
-  "Modern and scalable architecture for future growth",
-  "Integration with existing systems and workflows",
-  "Reduced time-to-market with agile development",
-  "Ongoing support and maintenance",
-  "Regular updates and enhancements",
-  "Knowledge transfer and documentation",
+  "Access to top talent across every hot and needed industry position",
+  "Reduced operational costs and overhead",
+  "Scalable workforce that adapts to your business needs",
+  "Focus on your core business objectives",
+  "Faster project completion and time-to-market",
+  "Specialized expertise without long-term commitments",
+  "Improved business efficiency and productivity",
 ]
 
 export default function DevelopmentPage() {
   return (
     <SolutionLayout
-      title="Custom Development"
-      subtitle="Enterprise Software Solutions"
-      description="Build powerful, scalable, and secure enterprise applications tailored to your unique business requirements."
+      title="Talent Outsourcing"
+      subtitle="Industry Professionals On Demand"
+      description="Access top industry talent across various sectors to scale your business efficiently and focus on your core objectives."
       features={features}
       image="/solutions/development.jpg"
       benefits={benefits}

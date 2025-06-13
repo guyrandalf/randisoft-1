@@ -5,55 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc74fab5-bc36-47ab-81df-46ae4f02acaa" name="Changes" comment="Remove theme toggle component and package-lock file">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/randisoft.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/cookies/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout.metadata.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/meta-data.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/portfolio/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/privacy/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/solutions/analytics/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/solutions/automation/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/solutions/cloud/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/solutions/development/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/solutions/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/terms/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/about.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/case-studies.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/flagships.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/innovation-hub.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/portfolio-highlights.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/products.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/services.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/team.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/why-choose-us.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/breadcrumb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/client-layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/solutions/solution-layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/particles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/cta.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/cta.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/solutions/development/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/solutions/development/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/solutions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/solutions/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/terms/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/terms/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/feature..tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/feature..tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/flagships.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/flagships.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/team.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/team.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/mode-toggle.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/providers/theme-provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theme-toggler.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,30 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/guyrandalf/Software/randisoft",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/guyrandalf/Software/randisoft/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guyrandalf/Software/randisoft&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/guyrandalf/Software/randisoft/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -116,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -131,6 +99,14 @@
       <workItem from="1739211285299" duration="804000" />
       <workItem from="1749120970751" duration="731000" />
       <workItem from="1749121713297" duration="9630000" />
+      <workItem from="1749459190049" duration="1695000" />
+      <workItem from="1749461214411" duration="354000" />
+      <workItem from="1749461576542" duration="417000" />
+      <workItem from="1749462003941" duration="3244000" />
+      <workItem from="1749497707234" duration="584000" />
+      <workItem from="1749511449265" duration="206000" />
+      <workItem from="1749727917753" duration="1746000" />
+      <workItem from="1749809807654" duration="4198000" />
     </task>
     <servers />
   </component>

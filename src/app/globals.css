@@ -33,6 +33,9 @@
     --ring: 280 90% 50%;
 
     --radius: 0.5rem;
+
+    --shadow-layout: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .dark {
@@ -63,6 +66,9 @@
     --border: 217 33% 20%;
     --input: 217 33% 20%;
     --ring: 224.3 76.3% 48%;
+
+    --shadow-layout: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 }
 

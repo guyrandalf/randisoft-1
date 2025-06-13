@@ -17,7 +17,7 @@ const navigation = {
     { name: "Skills Marketplace", href: "/products#skills" },
     { name: "Information Platform", href: "/products#information" },
     { name: "Healthcare Solutions", href: "/products#healthcare" },
-    { name: "Development Services", href: "/services" },
+    { name: "Outsourcing Services", href: "/services" },
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy" },
@@ -36,7 +36,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t bg-muted/30">
+    <footer className="border-t border-t-muted bg-muted/30 shadow-sm shadow-layout">
       <Container>
         <div className="py-12">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">

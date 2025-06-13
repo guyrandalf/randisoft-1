@@ -13,75 +13,75 @@ import {
 
 const services = [
   {
-    title: "Custom Software Development",
+    title: "Talent Sourcing",
     description:
-      "Tailored solutions designed to address your unique business challenges and requirements.",
+      "Access to vetted professionals across various industries to meet your specific needs.",
     icon: RiCodeBoxLine,
     features: [
-      "Web Applications",
-      "Mobile Solutions",
-      "Enterprise Software",
-      "API Development",
+      "Rigorous Vetting Process",
+      "Industry Specialists",
+      "Skill-Based Matching",
+      "Rapid Placement",
     ],
   },
   {
-    title: "Technical Consulting",
+    title: "Project Outsourcing",
     description:
-      "Expert guidance on technology strategy, architecture, and implementation.",
+      "Complete project management and execution by our network of skilled professionals.",
     icon: RiBrainLine,
     features: [
-      "Architecture Design",
-      "Tech Stack Selection",
-      "Performance Optimization",
-      "Security Assessment",
+      "End-to-End Delivery",
+      "Milestone Tracking",
+      "Quality Assurance",
+      "Regular Reporting",
     ],
   },
   {
-    title: "Cloud Solutions",
+    title: "Staff Augmentation",
     description:
-      "Scalable and secure cloud infrastructure design and implementation.",
+      "Seamlessly integrate additional talent with your existing teams for specific projects.",
     icon: RiCloudLine,
     features: [
-      "Cloud Migration",
-      "DevOps Integration",
-      "Infrastructure as Code",
-      "24/7 Monitoring",
+      "Flexible Engagement",
+      "Skill Gap Filling",
+      "Scalable Resources",
+      "Knowledge Transfer",
     ],
   },
   {
-    title: "Data Engineering",
+    title: "Dedicated Teams",
     description:
-      "Build robust data pipelines and analytics solutions for actionable insights.",
+      "Full teams of specialists working exclusively on your projects and business objectives.",
     icon: RiDatabase2Line,
     features: [
-      "Data Architecture",
-      "ETL Pipelines",
-      "Data Warehousing",
-      "Business Intelligence",
+      "Team Composition",
+      "Collaborative Workflow",
+      "Consistent Communication",
+      "Performance Monitoring",
     ],
   },
   {
-    title: "Security Solutions",
+    title: "Executive Talent",
     description:
-      "Implement comprehensive security measures to protect your digital assets.",
+      "Access to experienced C-level and senior management professionals for strategic roles.",
     icon: RiShieldLine,
     features: [
-      "Security Audits",
-      "Compliance Implementation",
-      "Penetration Testing",
-      "Security Training",
+      "Leadership Expertise",
+      "Strategic Planning",
+      "Interim Management",
+      "Advisory Services",
     ],
   },
   {
-    title: "Team Augmentation",
+    title: "Industry Solutions",
     description:
-      "Extend your team with our skilled developers and technical experts.",
+      "Specialized outsourcing solutions tailored to specific industry requirements and challenges.",
     icon: RiTeamLine,
     features: [
-      "Skilled Developers",
-      "Project Managers",
-      "DevOps Engineers",
-      "Quality Assurance",
+      "Healthcare Specialists",
+      "Finance Experts",
+      "IT Professionals",
+      "Marketing Talent",
     ],
   },
 ]
@@ -97,9 +97,9 @@ export default function Features() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl font-bold mb-4">Outsourcing Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive software solutions to drive your business forward
+            Connecting businesses with top industry talent to scale efficiently
           </p>
         </motion.div>
 

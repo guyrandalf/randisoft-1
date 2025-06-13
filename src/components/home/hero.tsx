@@ -13,23 +13,23 @@ import {
 
 const companyStats = [
   {
-    value: "5+",
-    label: "Years Combined Experience",
+    value: "4",
+    label: "Core Digital Platforms",
     icon: RiCodeLine,
   },
   {
-    value: "20+",
-    label: "Successful Projects",
+    value: "2",
+    label: "Support Services",
     icon: RiStackLine,
   },
   {
     value: "10+",
-    label: "Tech Stack Proficiency",
+    label: "Problem Areas Addressed",
     icon: RiTeamLine,
   },
   {
     value: "100%",
-    label: "Client Satisfaction",
+    label: "Commitment to Nigeria",
     icon: RiRocketLine,
   },
 ]
@@ -46,7 +46,7 @@ export default function Hero() {
               transition={{ duration: 0.5 }}
               className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-gradient"
             >
-              Building Software Products That Matter
+              Building Digital Platforms That Solve Real Problems
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-xl text-muted-foreground max-w-2xl"
             >
-              Randisoft creates innovative software solutions for Nigerian businesses and individuals
+              Randisoft builds scalable digital platforms that solve critical problems in Nigeria
             </motion.p>
 
             <motion.div
@@ -142,10 +142,10 @@ export default function Hero() {
                       </div>
                       <div className="p-4 text-xs font-mono">
                         <div className="text-primary">const <span className="text-accent">randisoft</span> = {`{`}</div>
-                        <div className="pl-4">products: <span className="text-secondary">['SkillsMarketplace', 'InfoPlatform', 'HealthcareSolutions']</span>,</div>
-                        <div className="pl-4">focus: <span className="text-secondary">'innovation'</span>,</div>
+                        <div className="pl-4">coreProducts: <span className="text-secondary">['SkillsMarketplace', 'AgrotechPlatform', 'GovernmentInfoHub', 'HealthTechPlatform']</span>,</div>
+                        <div className="pl-4">focus: <span className="text-secondary">'solving critical problems'</span>,</div>
                         <div className="pl-4">location: <span className="text-secondary">'Nigeria'</span>,</div>
-                        <div className="pl-4">mission: <span className="text-secondary">'Building software that matters'</span></div>
+                        <div className="pl-4">mission: <span className="text-secondary">'Building digital platforms that matter'</span></div>
                         <div>{`}`};</div>
                       </div>
                     </div>

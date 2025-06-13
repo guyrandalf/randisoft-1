@@ -40,12 +40,12 @@ const products = [
     href: "/products#healthcare",
   },
   {
-    title: "Development Services",
+    title: "Outsourcing Services",
     description:
-      "Supporting our product development journey with select client work",
+      "Connecting businesses with top industry talent for efficient scaling",
     icon: RiCodeLine,
     status: "Available Now",
-    features: ["Web & Mobile", "Limited Availability", "Product-First Focus"],
+    features: ["Industry Professionals", "Flexible Engagement", "Talent Matching"],
     href: "/services",
   },
 ]
@@ -107,7 +107,7 @@ export default function Products() {
 
                   <Button asChild variant="ghost" className="group-hover:text-primary transition-colors">
                     <Link href={product.href}>
-                      {product.title === "Development Services" ? "Learn More" : "Join Beta"}
+                      {product.title === "Outsourcing Services" ? "Learn More" : "Join Beta"}
                       <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                     </Link>
                   </Button>

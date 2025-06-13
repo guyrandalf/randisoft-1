@@ -29,10 +29,10 @@ const flagships = [
     link: "/products#healthcare",
   },
   {
-    title: "Development Services",
-    description: "Supporting our product development journey with select client work and technical expertise.",
+    title: "Outsourcing Services",
+    description: "Connecting businesses with top industry talent to scale efficiently and focus on core objectives.",
     image: "/flagships/analytics.jpg",
-    technologies: ["Next.js", "React Native", "Node.js", "Cloud Infrastructure"],
+    technologies: ["Talent Sourcing", "Project Management", "Staff Augmentation", "Dedicated Teams"],
     link: "/services",
   },
 ]
@@ -97,7 +97,7 @@ export default function Flagships() {
 
                 <Button variant="ghost" size="sm" className="w-full group-hover:bg-primary group-hover:text-white transition-colors" asChild>
                   <Link href={product.link}>
-                    {product.title === "Development Services" ? "Learn More" : "Join Beta"}
+                    {product.title === "Outsourcing Services" ? "Learn More" : "Join Beta"}
                     <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
                   </Link>
                 </Button>

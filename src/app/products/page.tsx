@@ -22,10 +22,10 @@ const products = [
   {
     id: "skills",
     title: "Skills Marketplace",
-    tagline: "Connecting Nigerians with verified service providers",
+    tagline: "Connecting skilled individuals to opportunities and services",
     description: "A platform that bridges the gap between skilled professionals and those who need their services. Our marketplace ensures quality through verification, secure payments, and a robust rating system.",
-    status: "In Development",
-    timeline: "Launching Q3 2025",
+    status: "Beta Testing",
+    timeline: "Launching Q3 2024",
     icon: RiTeamLine,
     image: "/products/skills.jpg",
     features: [
@@ -44,18 +44,42 @@ const products = [
     ],
   },
   {
-    id: "information",
-    title: "Information Platform",
-    tagline: "Simplifying access to government services and citizen rights",
-    description: "A comprehensive platform that demystifies government processes, provides access to public information, and helps citizens understand and exercise their rights effectively.",
+    id: "agrotech",
+    title: "Agrotech Platform",
+    tagline: "Solving farming challenges in Nigeria",
+    description: "A solution focused on solving farming challenges in Nigeria including market access, productivity improvements, and supply chain optimization.",
+    status: "In Development",
+    timeline: "Expected Q1 2025",
+    icon: RiMapPinLine,
+    image: "/products/agrotech.jpg",
+    features: [
+      "Market access for farmers",
+      "Supply chain optimization",
+      "Productivity tools and resources",
+      "Weather and climate information",
+      "Agricultural best practices",
+      "Financing options and connections",
+    ],
+    targetUsers: [
+      "Farmers and agricultural workers",
+      "Agribusinesses",
+      "Food processors and distributors",
+      "Agricultural input suppliers",
+    ],
+  },
+  {
+    id: "government",
+    title: "Government Information Hub",
+    tagline: "Centralized hub for verified public information",
+    description: "A centralized, accessible hub for verified public and government information to combat misinformation and improve citizen access to important resources.",
     status: "Planning Phase",
     timeline: "Expected 2026",
-    icon: RiMapPinLine,
+    icon: RiCodeLine,
     image: "/products/information.jpg",
     features: [
+      "Verified government information",
       "Simplified government process guides",
       "Document templates and generators",
-      "Rights and responsibilities explainers",
       "Service locator for government offices",
       "Updates on policy changes",
       "Community forum for shared experiences",
@@ -69,9 +93,9 @@ const products = [
   },
   {
     id: "healthcare",
-    title: "Healthcare Solutions",
-    tagline: "Improving healthcare access and information",
-    description: "A suite of digital tools designed to make healthcare more accessible, efficient, and transparent for patients and providers alike.",
+    title: "Health Tech Platform",
+    tagline: "Digital ecosystem for accessible healthcare",
+    description: "A digital ecosystem for accessible and affordable healthcare in Nigeria, connecting patients with providers and improving health information access.",
     status: "Research Phase",
     timeline: "Target 2027",
     icon: RiCustomerService2Line,
@@ -117,10 +141,10 @@ export default function ProductsPage() {
         <Breadcrumb />
 
         <div className="py-12">
-          <h1 className="text-4xl font-bold mb-6">Our Product Pipeline</h1>
+          <h1 className="text-4xl font-bold mb-6">Our Core Digital Platforms</h1>
 
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl">
-            At Randisoft, we're building the next generation of African software products that solve real problems for Nigerian businesses and individuals.
+            At Randisoft, we're focused on building scalable digital platforms that solve critical problems in Nigeria. Our products are at various stages of development, from beta testing to research phase.
           </p>
 
           {/* Product Navigation */}
@@ -256,39 +280,39 @@ export default function ProductsPage() {
             </div>
           </div>
 
-          {/* Development Services Section */}
+          {/* Support Services Section */}
           <div className="mt-24 pt-12 border-t">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-2xl font-semibold mb-4">Development Services</h2>
+                <h2 className="text-2xl font-semibold mb-4">Support Services</h2>
                 <p className="text-muted-foreground mb-6">
-                  While we focus on building our flagship products, we offer limited development services to select clients. This helps us fund our product development journey while delivering exceptional value to businesses.
+                  While our primary focus is on building our core digital platforms, we offer support services to generate revenue and extend our reach. These services help businesses access skilled professionals and manage business functions effectively.
                 </p>
                 <p className="text-muted-foreground mb-6">
-                  Our services are available on a limited basis, as our primary focus remains on our product roadmap.
+                  Our support services include Staffing Agency Services and Outsourcing Services across various industries, not limited to tech.
                 </p>
                 <Button asChild>
                   <Link href="/services">Learn About Our Services</Link>
                 </Button>
               </div>
               <div className="bg-muted/30 p-6 rounded-xl">
-                <h3 className="text-lg font-semibold mb-4">Why we offer services:</h3>
+                <h3 className="text-lg font-semibold mb-4">Our support services include:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <RiCheckLine className="text-primary mt-1 flex-shrink-0" />
-                    <span>To fund our product development</span>
+                    <span>Staffing Agency Services - recruiting, training, and deploying skilled professionals</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <RiCheckLine className="text-primary mt-1 flex-shrink-0" />
-                    <span>To maintain a diverse revenue stream</span>
+                    <span>Outsourcing Services - managing entire business functions or roles</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <RiCheckLine className="text-primary mt-1 flex-shrink-0" />
-                    <span>To keep our team's skills sharp</span>
+                    <span>Cross-industry expertise (not limited to tech)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <RiCheckLine className="text-primary mt-1 flex-shrink-0" />
-                    <span>To build relationships with potential product users</span>
+                    <span>Results-driven approach focused on business objectives</span>
                   </li>
                 </ul>
               </div>

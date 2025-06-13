@@ -45,7 +45,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="sm:flex sm:justify-between border-b fixed top-0 left-0 right-0 z-50 bg-background">
+    <header className="sm:flex sm:justify-between shadow-sm shadow-layout fixed top-0 left-0 right-0 z-50 bg-background">
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between w-full">
           <div className="flex items-center">

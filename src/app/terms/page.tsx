@@ -32,9 +32,10 @@ export default function TermsOfServicePage() {
 
             <h2 className="text-2xl font-semibold mt-12 mb-4">2. Services</h2>
             <p>
-              Randisoft provides software development services, including but not limited to web application development,
-              mobile application development, e-commerce solutions, and business automation. The specific details,
-              deliverables, timelines, and costs of services will be outlined in a separate agreement or statement of work.
+              Randisoft provides talent outsourcing services, connecting businesses with skilled professionals across various
+              industries. Our services include but are not limited to talent sourcing, project-based outsourcing, staff augmentation,
+              and dedicated team arrangements. The specific details, deliverables, timelines, and costs of services will be outlined
+              in a separate agreement or statement of work.
             </p>
 
             <h2 className="text-2xl font-semibold mt-12 mb-4">3. Use of Website</h2>
