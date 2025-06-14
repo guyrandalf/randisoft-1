@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc74fab5-bc36-47ab-81df-46ae4f02acaa" name="Changes" comment="Remove theme toggle component and package-lock file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/solutions/development/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/solutions/development/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/solutions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/solutions/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/terms/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/terms/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/feature..tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/feature..tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/flagships.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/flagships.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/products.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/team.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/team.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/navbar.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="dc74fab5-bc36-47ab-81df-46ae4f02acaa" name="Changes" comment="Refactor service offerings and team details; update UI components for clarity and consistency" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,8 +90,17 @@
       <workItem from="1749497707234" duration="584000" />
       <workItem from="1749511449265" duration="206000" />
       <workItem from="1749727917753" duration="1746000" />
-      <workItem from="1749809807654" duration="4198000" />
+      <workItem from="1749809807654" duration="4259000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor service offerings and team details; update UI components for clarity and consistency">
+      <option name="closed" value="true" />
+      <created>1749814872834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749814872834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove theme toggle component and package-lock file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove theme toggle component and package-lock file" />
+    <MESSAGE value="Refactor service offerings and team details; update UI components for clarity and consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor service offerings and team details; update UI components for clarity and consistency" />
   </component>
 </project>

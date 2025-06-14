@@ -22,18 +22,18 @@ const flagships = [
     link: "/products#information",
   },
   {
+    title: "Agrotech Platform",
+    description: "Solving farming challenges in Nigeria including market access, productivity improvements, and supply chain optimization.",
+    image: "/flagships/automate.jpg",
+    technologies: ["IoT", "Data Analytics", "Mobile Apps", "Supply Chain"],
+    link: "/products#agrotech",
+  },
+  {
     title: "Healthcare Solutions",
     description: "Improving healthcare access and information management for patients and providers.",
     image: "/flagships/learn.jpg",
     technologies: ["React", "Firebase", "Node.js", "Video Streaming"],
     link: "/products#healthcare",
-  },
-  {
-    title: "Outsourcing Services",
-    description: "Connecting businesses with top industry talent to scale efficiently and focus on core objectives.",
-    image: "/flagships/analytics.jpg",
-    technologies: ["Talent Sourcing", "Project Management", "Staff Augmentation", "Dedicated Teams"],
-    link: "/services",
   },
 ]
 

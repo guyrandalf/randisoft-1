@@ -38,6 +38,37 @@
       0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
+  /* Service-specific color palettes */
+  .skills-palette {
+    --primary: 217 91% 53%; /* Blue */
+    --secondary: 158 64% 40%; /* Green */
+    --accent: 35 92% 50%; /* Orange */
+  }
+
+  .information-palette {
+    --primary: 262 83% 58%; /* Purple */
+    --secondary: 199 89% 48%; /* Light Blue */
+    --accent: 340 82% 52%; /* Pink */
+  }
+
+  .agrotech-palette {
+    --primary: 142 76% 36%; /* Green */
+    --secondary: 78 100% 35%; /* Lime */
+    --accent: 27 96% 61%; /* Orange */
+  }
+
+  .healthcare-palette {
+    --primary: 199 89% 48%; /* Light Blue */
+    --secondary: 340 82% 52%; /* Pink */
+    --accent: 262 83% 58%; /* Purple */
+  }
+
+  .outsourcing-palette {
+    --primary: 27 96% 61%; /* Orange */
+    --secondary: 217 91% 53%; /* Blue */
+    --accent: 142 76% 36%; /* Green */
+  }
+
   .dark {
     --background: 222 47% 11%;
     --foreground: 210 40% 98%;
@@ -63,12 +94,43 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 33% 20%;
-    --input: 217 33% 20%;
+    --border: 217 33% 13%;
+    --input: 217 33% 13%;
     --ring: 224.3 76.3% 48%;
 
-    --shadow-layout: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-layout: 0 10px 15px -3px rgba(0, 0, 0, 0.2),
+      0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Dark mode service-specific color palettes */
+  .dark .skills-palette {
+    --primary: 217 91% 53%; /* Blue */
+    --secondary: 158 64% 40%; /* Green */
+    --accent: 35 92% 50%; /* Orange */
+  }
+
+  .dark .information-palette {
+    --primary: 262 83% 58%; /* Purple */
+    --secondary: 199 89% 48%; /* Light Blue */
+    --accent: 340 82% 52%; /* Pink */
+  }
+
+  .dark .agrotech-palette {
+    --primary: 142 76% 36%; /* Green */
+    --secondary: 78 100% 35%; /* Lime */
+    --accent: 27 96% 61%; /* Orange */
+  }
+
+  .dark .healthcare-palette {
+    --primary: 199 89% 48%; /* Light Blue */
+    --secondary: 340 82% 52%; /* Pink */
+    --accent: 262 83% 58%; /* Purple */
+  }
+
+  .dark .outsourcing-palette {
+    --primary: 27 96% 61%; /* Orange */
+    --secondary: 217 91% 53%; /* Blue */
+    --accent: 142 76% 36%; /* Green */
   }
 }
 
@@ -224,6 +286,32 @@ body {
   animation: rainbow 10s linear infinite;
 }
 
+/* Dark mode adjustments for borders and gradients */
+.dark .border {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .border-t,
+.dark .border-b,
+.dark .border-l,
+.dark .border-r {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark [class*="from-primary"],
+.dark [class*="from-secondary"],
+.dark [class*="from-accent"],
+.dark [class*="to-primary"],
+.dark [class*="to-secondary"],
+.dark [class*="to-accent"],
+.dark [class*="via-primary"],
+.dark [class*="via-secondary"],
+.dark [class*="via-accent"] {
+  --tw-gradient-from-opacity: 0.05;
+  --tw-gradient-to-opacity: 0.05;
+  --tw-gradient-via-opacity: 0.05;
+}
+
 .bg-grid {
   background-size: 50px 50px;
   background-image: linear-gradient(
@@ -232,6 +320,15 @@ body {
       transparent 1px
     ),
     linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+}
+
+.dark .bg-grid {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
 
 .bg-grid-subtle {
@@ -248,5 +345,13 @@ body {
     white,
     90%,
     transparent
+  );
+}
+
+.dark .bg-grid-subtle {
+  background-image: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 1px
   );
 }

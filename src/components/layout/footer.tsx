@@ -42,7 +42,12 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {/* Company Info */}
             <div className="md:col-span-2">
-              <h3 className="text-xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Randisoft</h3>
+              <div className="flex items-center">
+                <div className="h-8 w-8 mr-2">
+                  <img src="/logo-icon.svg" alt="Randisoft Logo" className="h-full w-full" />
+                </div>
+                <h3 className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Randisoft</h3>
+              </div>
               <p className="mt-4 text-sm text-muted-foreground">
                 A software product company creating innovative solutions for Nigerian businesses and individuals.
                 We're building the next generation of African software products.

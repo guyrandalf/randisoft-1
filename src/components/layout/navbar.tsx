@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Container from "@/components/layout/container"
 import { Button } from "@/components/ui/button"
 import { Menu, Sun, Moon } from "lucide-react"
@@ -31,6 +31,14 @@ const routes = [
     label: "Services",
   },
   {
+    href: "/services#staffing",
+    label: "Staffing/Recruiting",
+  },
+  {
+    href: "/careers",
+    label: "Careers",
+  },
+  {
     href: "/contact",
     label: "Contact",
   },
@@ -39,6 +47,12 @@ const routes = [
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark")
@@ -47,10 +61,13 @@ export default function Navbar() {
   return (
     <header className="sm:flex sm:justify-between shadow-sm shadow-layout fixed top-0 left-0 right-0 z-50 bg-background">
       <Container>
-        <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between w-full">
+        <div className="relative flex h-16 items-center justify-between w-full">
           <div className="flex items-center">
-            <Link href="/" className="ml-4 lg:ml-0">
-              <h1 className="text-xl font-bold">Randisoft</h1>
+            <Link href="/" className="lg:ml-0 flex items-center">
+              <div className="h-8 w-8 mr-2">
+                <img src="/logo-icon.svg" alt="Randisoft Logo" className="h-full w-full" />
+              </div>
+              <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Randisoft</span>
             </Link>
           </div>
           <nav className="mx-6 flex items-center space-x-4 lg:space-x-6 hidden md:block">
@@ -66,9 +83,11 @@ export default function Navbar() {
             ))}
           </nav>
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" size="icon" onClick={toggleTheme} className="hidden md:flex">
-              {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-            </Button>
+            {mounted && (
+              <Button variant="ghost" size="icon" onClick={toggleTheme} className="hidden md:flex">
+                {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              </Button>
+            )}
             <div className="hidden md:flex md:items-center md:space-x-4">
               <Button asChild>
                 <Link href="/products#beta">Join Our Beta</Link>
@@ -82,7 +101,12 @@ export default function Navbar() {
               <SheetContent side="right" className="w-[300px] sm:w-[400px] p-0">
                 <div className="flex flex-col h-full">
                   <div className="p-6 border-b">
-                    <h2 className="text-xl font-bold">Randisoft</h2>
+                    <div className="flex items-center mb-2">
+                      <div className="h-8 w-8 mr-2">
+                        <img src="/logo-icon.svg" alt="Randisoft Logo" className="h-full w-full" />
+                      </div>
+                      <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Randisoft</span>
+                    </div>
                     <p className="text-sm text-muted-foreground mt-1">Building Software Products That Matter</p>
                   </div>
                   <nav className="flex-1 overflow-auto py-6 px-4">
@@ -93,6 +117,7 @@ export default function Navbar() {
                           variant="ghost"
                           key={i}
                           className="w-full justify-start text-lg h-12"
+                          onClick={() => setOpen(false)}
                         >
                           <Link href={route.href}>
                             {route.label}
@@ -102,27 +127,29 @@ export default function Navbar() {
                     </div>
 
                     <div className="pt-4 border-t mt-4">
-                      <Button
-                        variant="ghost"
-                        onClick={toggleTheme}
-                        className="justify-start w-full mb-2"
-                      >
-                        {theme === "dark" ? (
-                          <>
-                            <Sun className="h-5 w-5 mr-2" />
-                            Light Mode
-                          </>
-                        ) : (
-                          <>
-                            <Moon className="h-5 w-5 mr-2" />
-                            Dark Mode
-                          </>
-                        )}
-                      </Button>
+                      {mounted && (
+                        <Button
+                          variant="ghost"
+                          onClick={toggleTheme}
+                          className="justify-start w-full mb-2"
+                        >
+                          {theme === "dark" ? (
+                            <>
+                              <Sun className="h-5 w-5 mr-2" />
+                              Light Mode
+                            </>
+                          ) : (
+                            <>
+                              <Moon className="h-5 w-5 mr-2" />
+                              Dark Mode
+                            </>
+                          )}
+                        </Button>
+                      )}
                     </div>
                   </nav>
                   <div className="p-4 border-t mt-auto">
-                    <Button asChild className="w-full">
+                    <Button asChild className="w-full" onClick={() => setOpen(false)}>
                       <Link href="/products#beta">Join Our Beta</Link>
                     </Button>
                   </div>

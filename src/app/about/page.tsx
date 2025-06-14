@@ -63,6 +63,17 @@ export default function AboutPage() {
               Our agile development process ensures that you're involved every step of the way, resulting in software
               that truly serves your business goals.
             </p>
+
+            <h2 className="text-2xl font-semibold mt-12 mb-4">Our Staffing & Recruiting Services</h2>
+            <p>
+              While our primary focus is on building innovative digital platforms, we also offer comprehensive staffing and recruiting services.
+              We connect businesses with skilled professionals across various industries, helping them find the right talent for their specific needs.
+              Our staffing and recruiting services are designed to help businesses scale efficiently while focusing on their core objectives.
+            </p>
+            <p className="mt-4">
+              Whether you're looking for skilled professionals or seeking career opportunities, our staffing and recruiting team is here to help.
+              We take pride in matching the right talent with the right opportunities, creating successful partnerships that drive business growth.
+            </p>
           </div>
         </div>
       </Container>
